@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .imgSize{
+  width: 150px;
+  height: 150px;
+} */
+
+.active {
+  color: rgb(240, 109, 27);
+ }
+  
+
+/* Extra small devices (phones, 600px and down) */ 
+  @media only screen and (max-width: 600px) {
+    
+    
+    
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
+    /* #Bannar_Lumang{
+        
+    margin-top: -72px;
+  } */
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  #Bannar_Lumang{
+        
+    margin-top: -72px;
+  }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  #Bannar_Lumang{
+        
+    margin-top: -72px;
+  }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:2160px) {
+  
+  #Bannar_Lumang{
+        
+    margin-top: -120px;
+  }
+}

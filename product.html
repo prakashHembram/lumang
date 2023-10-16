@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lumang</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="card_style.css">
+    </head>
+    <body class="position-relative">
+        <!-- ***************************start menue****************** -->
+        <div class="row d-none d-md-block">
+            <header
+                class="d-flex flex-wrap justify-content-center  bg-dark py-2 mion-sticky">
+                <a href="/"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto   text-decoration-none">
+                    <!-- <svg class="bi me-2" width="40" height="32"><use
+                            xlink:href="#bootstrap"></use></svg>
+                    <span class="fs-4 text-white fw-bolder">Lumang</span> -->
+                    <img class="" src="logo_site.png" alt="LUMANG" style="height: 100%; width: 18%; margin-left: 25px; filter: drop-shadow(1px 1px 1px white);" >
+                </a>
+
+                <ul class="nav nav-pills active">
+                    <li class="nav-item"><a href="index.html"
+                            class="nav-link text-white fw-bolder"
+                            aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="#"
+                            class="nav-link text-white fw-bolder">Products</a></li>
+                    <li class="nav-item"><a href="#"
+                            class="nav-link text-white fw-bolder">Pricing</a></li>
+                    <li class="nav-item"><a href="#"
+                            class="nav-link text-white fw-bolder">FAQs</a></li>
+                    <li class="nav-item"><a href="#"
+                            class="nav-link text-white fw-bolder">About</a></li>
+                </ul>
+            </header>
+
+        </div>
+
+        <!-- ****************mlobie munu************* -->
+        <nav
+            class="navbar navbar-dark bg-dark sticky-top  d-block d-md-none bg-dark">
+            <div class="container-fluid">
+                <img class="" src="logo_site.png" alt="LUMANG" style="height: 100%; width: 37%; margin-left: 3px; filter: drop-shadow(1px -1px 0px white);" >
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar"
+                    aria-controls="offcanvasDarkNavbar">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </button>
+
+                <div class="offcanvas offcanvas-end text-bg-dark w-75"
+                    tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                            <img class="" src="logo_site.png" alt="LUMANG" style="height: 100%; width: 46%; margin-left: 3px; filter: drop-shadow(1px -1px 0px white);" >
+                            
+                        </h5>
+                        <button type="button"
+                            class="btn-close btn-close-white me-2"
+                            data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body active nav-fill">
+                        <ul
+                            class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link  " aria-current="page"
+                                    href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  " aria-current="page"
+                                    href="#">product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  " aria-current="page"
+                                    href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  " aria-current="page"
+                                    href="#">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  " aria-current="page"
+                                    href="#">About Us</a>
+                            </li>
+                        </ul>
+                            
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+            <!-- **************** end mobile munu************* -->
+            <!-- ***************************End menue****************** -->
+            <!-- ***************************mide contanar****************** -->
+            <div class="container text-center my-3">
+                <div class="row">
+                    <!-- **********************for mobile******************** -->
+                    <nav class="navbar d-block d-md-none">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa-solid fa-filter" style="color: #0080ff;"></i> Filter
+                            </button>
+                        </div>
+                    </nav>
+                    
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-info bg-opacity-25 p-4">
+                           
+                                <!-- ***************color************ -->
+                                <p class=" border-bottom border-secondary bg-opacity-100 fw-bolder text-secondary">COLOR</li>
+                                <div class="d-flex gap-4 mt-0">
+                                    <div class="form-check">
+                                        <input class="form-check-input bg-danger" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Red
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input bg-black" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Black
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input bg-black bg-opacity-10" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Navi Blue
+                                        </label>
+                                    </div>
+                                        
+                                    
+                                </div>
+                                <!-- ***************size************ -->
+                                <p class=" border-bottom border-secondary bg-opacity-100 fw-bolder text-secondary">SIZE</li>
+                                <div class="d-flex gap-4 flex-wrap " >
+                                    
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              S
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              M
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              L
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                             XL
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              XXL
+                                            </label>
+                                          </div>
+                                         
+                                                                                                                                                                                                                                                            
+                                    <!-- <p class=" border-bottom border-secondary ">S</p>
+                                    <p class=" border-bottom border-secondary ">M</p>
+                                    <p class=" border-bottom border-secondary ">L</p>
+                                    <p class=" border-bottom border-secondary ">XL</p>
+                                    <p class=" border-bottom border-secondary ">XXL</p>
+                                    <p class=" border-bottom border-secondary ">XXXL</p> -->
+                                    
+                                </div>
+                                <!-- ****************price bar******************* -->
+                                <li class="list-group-item ">
+                                    <label class="form-label fw-bolder text-secondary" for="customRange1">Price Range</label>
+                                    <hr>
+                                    <div class="range ">
+                                        <input type="range" min="0" max="100" class="form-range  " id="customRange1" />
+                                    </div>
+                                </li>
+                                
+                            
+                           
+                          
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                            
+                    
+                    
+                    <!-- ********************** endfor mobile******************** -->
+                    
+                    <div class="col-sm-2">
+                        
+                        <ul class="list-group d-none d-md-block">
+                            <!-- ***************color************ -->
+                            <li class="list-group-item fw-bolder text-info">COLOR</li>
+                            <li class="list-group-item "><i class="fa-solid fa-square float-start" style="color: #ff0000;"></i>Red</li>
+                            <li class="list-group-item "><i class="fa-regular fa-square float-start" style="color: #000000;"></i>White</li>
+                            <li class="list-group-item"><i class="fa-solid fa-square  float-start" style="color: #004080;"></i>Navi Blue</li>
+                            
+                            <!-- ***************size************ -->
+                            <li class="list-group-item fw-bolder text-info">SIZE</li>
+                            <li class="list-group-item ">S</li>
+                            <li class="list-group-item ">M</li>
+                            <li class="list-group-item">L</li>
+                            <li class="list-group-item">XL</li>
+                            <li class="list-group-item">XXL</li>
+                            <li class="list-group-item">XXXL</li>
+                            
+                            <li class="list-group-item">
+                                <label class="form-label fw-bolder text-info" for="customRange1">Price Range</label>
+                                <div class="range">
+                                <input type="range" min="0" max="100" class="form-range" id="customRange1" />
+                                </div>
+                            </li>
+                        </ul>
+                       
+                        
+                        
+                        
+                    
+                        
+                    </div>
+                    
+                
+                    <div class="col-sm-10">
+                            
+                            <!-- ************************product********************* -->
+                            <section class="my-lg-14 mt-2 mb-4 ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 mb-6">
+
+                                            <!-- <h3 class="mb-0">Popular Products</h3> -->
+
+                                        </div>
+                                    </div>
+
+                                    <div class="row g-4 row-cols-lg-5 row-cols-2 row-cols-md-3">
+
+                                        <!-- *****************1st************* -->
+
+                                        <div class="col">
+                                            <div class="card card-product ">
+                                                <div class="card-body">
+
+                                                    <div class="text-center  imgSize">
+
+                                                        <a href="#!"> <img
+                                                                src="https://www.beyoung.in/api/cache/catalog/products/plain_new_update_images_2_5_2022/bottle_green_plain_t-shirt_zoom_03_03_2023_700x933.jpg"
+                                                                alt="Grocery Ecommerce Template"
+                                                                class="mb-3 img-fluid ">
+                                                        </a>
+
+                                                    </div>
+                                                    <div class="text-small mb-1"><a href="#!"
+                                                            class="text-decoration-none text-muted"><small>black
+                                                                &amp;
+                                                                Rounded</small></a></div>
+                                                    <h2 class="fs-6"><a
+                                                            href="#./pages/shop-single.html"
+                                                            class="text-inherit text-decoration-none">Solid
+                                                            Men's Round Neck T-Shirts </a></h2>
+                                                    <div>
+
+                                                        <small class="text-warning">
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i
+                                                                class="fa-solid fa-star-half-stroke"
+                                                                style="color: #ffc107;"></i>
+                                                        </small>
+                                                        <span class="text-muted small">4.5(149)</span>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex justify-content-between align-items-center mt-3">
+                                                        <div><span class="text-dark">₹599</span>
+                                                            <span
+                                                                class="text-decoration-line-through text-muted">₹999</span>
+                                                        </div>
+                                                        <div><a href="#!"
+                                                                class="btn btn-primary d-flex btn-sm">
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    width="16" height="16"
+                                                                    viewBox="0 0 24 24"
+                                                                    fill="none"
+                                                                    stroke="currentColor"
+                                                                    stroke-width="2"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"
+                                                                    class="feather feather-plus">
+                                                                    <line x1="12" y1="5" x2="12"
+                                                                        y2="19"></line>
+                                                                    <line x1="5" y1="12" x2="19"
+                                                                        y2="12"></line>
+                                                                </svg> Add</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- ****************2st********** -->
+                                        <div class="col">
+                                            <div class="card card-product">
+                                                <div class="card-body">
+                                                    <div class="text-center imgSize">
+                                                        <a href="./pages/shop-single.html"><img
+                                                                src="https://i.pinimg.com/564x/11/6a/22/116a22751ec090ac666f10aeb7c74617.jpg"
+                                                                alt="Grocery Ecommerce Template"
+                                                                class="mb-3 img-fluid ">
+                                                        </a>
+
+                                                    </div>
+                                                    <div class="text-small mb-1"><a href="#!"
+                                                            class="text-decoration-none text-muted"><small>black
+                                                                &amp;
+                                                                Rounded</small></a></div>
+                                                    <h2 class="fs-6"><a
+                                                            href="./pages/shop-single.html"
+                                                            class="text-inherit text-decoration-none">Solid
+                                                            Men's Round Neck </a></h2>
+                                                    <div class="text-warning">
+
+                                                        <small>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i
+                                                                class="fa-solid fa-star-half-stroke"
+                                                                style="color: #ffc107;"></i>
+                                                        </small>
+                                                        <span class="text-muted small">4.5 (67)</span>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex justify-content-between align-items-center mt-3">
+                                                        <div><span class="text-dark">₹400</span>
+                                                            <span
+                                                                class="text-decoration-line-through text-muted">₹800</span>
+                                                        </div>
+                                                        <div><a href="#!"
+                                                                class="btn btn-primary d-flex btn-sm">
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    width="16" height="16"
+                                                                    viewBox="0 0 24 24"
+                                                                    fill="none"
+                                                                    stroke="currentColor"
+                                                                    stroke-width="2"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"
+                                                                    class="feather feather-plus">
+                                                                    <line x1="12" y1="5" x2="12"
+                                                                        y2="19"></line>
+                                                                    <line x1="5" y1="12" x2="19"
+                                                                        y2="12"></line>
+                                                                </svg> Add</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- ********************3rd********** -->
+
+                                        <div class="col">
+                                            <div class="card card-product">
+                                                <div class="card-body">
+                                                    <div class="text-center imgSize"> <a
+                                                            href="./pages/shop-single.html"><img
+                                                                src="https://www.creaturesofhabit.in/cdn/shop/products/10_900x.jpg?v=1679020009"
+                                                                alt="Grocery Ecommerce Template"
+                                                                class="mb-3 img-fluid "></a>
+
+                                                    </div>
+                                                    <div class="text-small mb-1"><a href="#!"
+                                                            class="text-decoration-none text-muted"><small>Black,
+                                                                &amp;
+                                                                Rounded</small></a></div>
+                                                    <h2 class="fs-6"><a
+                                                            href="./pages/shop-single.html"
+                                                            class="text-inherit text-decoration-none">Solid
+                                                            Men's Round Neck </a></h2>
+                                                    <div class="text-warning">
+
+                                                        <small>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i
+                                                                class="fa-solid fa-star-half-stroke"
+                                                                style="color: #ffc107;"></i>
+                                                        </small> <span
+                                                            class="text-muted small">3.5 (89)</span>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex justify-content-between mt-4">
+                                                        <div><span class="text-dark">₹600</span>
+                                                            <span
+                                                                class="text-decoration-line-through text-muted">₹900</span>
+                                                        </div>
+                                                        <div><a href="#!"
+                                                                class="btn btn-primary d-flex btn-sm">
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    width="16" height="16"
+                                                                    viewBox="0 0 24 24"
+                                                                    fill="none"
+                                                                    stroke="currentColor"
+                                                                    stroke-width="2"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"
+                                                                    class="feather feather-plus">
+                                                                    <line x1="12" y1="5" x2="12"
+                                                                        y2="19"></line>
+                                                                    <line x1="5" y1="12" x2="19"
+                                                                        y2="12"></line>
+                                                                </svg> Add</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- *******************4th**************** -->
+
+                                        <div class="col">
+                                            <div class="card card-product">
+                                                <div class="card-body">
+                                                    <div class="text-center imgSize"> <a
+                                                            href="./pages/shop-single.html"><img
+                                                                src="https://thehouseofrare.com/cdn/shop/products/IMG_0003_1_6c6b5b02-8aeb-4d0f-8a33-9f0be0d7794f_900x.jpg?v=1674811734"
+                                                                alt="Grocery Ecommerce Template"
+                                                                class="mb-3 img-fluid "></a>
+
+                                                    </div>
+                                                    <div class="text-small mb-1"><a href="#!"
+                                                            class="text-decoration-none text-muted"><small>Black,
+                                                                &amp;
+                                                                Rounded</small></a></div>
+                                                    <h2 class="fs-6"><a
+                                                            href="./pages/shop-single.html"
+                                                            class="text-inherit text-decoration-none">Solid
+                                                            Men's Round Neck </a></h2>
+                                                    <div class="text-warning">
+
+                                                        <small>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i
+                                                                class="fa-solid fa-star-half-stroke"
+                                                                style="color: #ffc107;"></i>
+                                                        </small> <span
+                                                            class="text-muted small">3.5 (89)</span>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex justify-content-between mt-4">
+                                                        <div><span class="text-dark">₹600</span>
+                                                            <span
+                                                                class="text-decoration-line-through text-muted">₹900</span>
+                                                        </div>
+                                                        <div><a href="#!"
+                                                                class="btn btn-primary d-flex btn-sm">
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    width="16" height="16"
+                                                                    viewBox="0 0 24 24"
+                                                                    fill="none"
+                                                                    stroke="currentColor"
+                                                                    stroke-width="2"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"
+                                                                    class="feather feather-plus">
+                                                                    <line x1="12" y1="5" x2="12"
+                                                                        y2="19"></line>
+                                                                    <line x1="5" y1="12" x2="19"
+                                                                        y2="12"></line>
+                                                                </svg> Add</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- ****************5th************* -->
+                                        <div class="col">
+                                            <div class="card card-product">
+                                                <div class="card-body">
+                                                    <div class="text-center imgSize "> <a
+                                                            href="./pages/shop-single.html"><img
+                                                                src="https://m.media-amazon.com/images/I/61ipOrLW5qL._UY879_.jpg"
+                                                                alt="Grocery Ecommerce Template"
+                                                                class="mb-3 img-fluid "></a>
+
+                                                    </div>
+                                                    <div class="text-small mb-1"><a href="#!"
+                                                            class="text-decoration-none text-muted"><small>Black,
+                                                                &amp;
+                                                                Rounded</small></a></div>
+                                                    <h2 class="fs-6"><a
+                                                            href="./pages/shop-single.html"
+                                                            class="text-inherit text-decoration-none">Solid
+                                                            Men's Round Neck </a></h2>
+                                                    <div class="text-warning">
+
+                                                        <small>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i
+                                                                class="fa-solid fa-star-half-stroke"
+                                                                style="color: #ffc107;"></i>
+                                                        </small> <span
+                                                            class="text-muted small">3.5 (89)</span>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex justify-content-between mt-4">
+                                                        <div><span class="text-dark">₹600</span>
+                                                            <span
+                                                                class="text-decoration-line-through text-muted">₹900</span>
+                                                        </div>
+                                                        <div><a href="#!"
+                                                                class="btn btn-primary d-flex btn-sm">
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    width="16" height="16"
+                                                                    viewBox="0 0 24 24"
+                                                                    fill="none"
+                                                                    stroke="currentColor"
+                                                                    stroke-width="2"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"
+                                                                    class="feather feather-plus">
+                                                                    <line x1="12" y1="5" x2="12"
+                                                                        y2="19"></line>
+                                                                    <line x1="5" y1="12" x2="19"
+                                                                        y2="12"></line>
+                                                                </svg> Add</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- *****************6th**************** -->
+
+                                        <div class="col">
+                                            <div class="card card-product">
+                                                <div class="card-body">
+                                                    <div class="text-center imgSize"> <a
+                                                            href="./pages/shop-single.html"><img
+                                                                src="https://www.creaturesofhabit.in/cdn/shop/products/10_900x.jpg?v=1679020009"
+                                                                alt="Grocery Ecommerce Template"
+                                                                class="mb-3 img-fluid "></a>
+
+                                                    </div>
+                                                    <div class="text-small mb-1"><a href="#!"
+                                                            class="text-decoration-none text-muted"><small>Black,
+                                                                &amp;
+                                                                Rounded</small></a></div>
+                                                    <h2 class="fs-6"><a
+                                                            href="./pages/shop-single.html"
+                                                            class="text-inherit text-decoration-none">Solid
+                                                            Men's Round Neck </a></h2>
+                                                    <div class="text-warning">
+
+                                                        <small>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i
+                                                                class="fa-solid fa-star-half-stroke"
+                                                                style="color: #ffc107;"></i>
+                                                        </small> <span
+                                                            class="text-muted small">3.5 (89)</span>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex justify-content-between mt-4">
+                                                        <div><span class="text-dark">₹600</span>
+                                                            <span
+                                                                class="text-decoration-line-through text-muted">₹900</span>
+                                                        </div>
+                                                        <div><a href="#!"
+                                                                class="btn btn-primary d-flex btn-sm">
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    width="16" height="16"
+                                                                    viewBox="0 0 24 24"
+                                                                    fill="none"
+                                                                    stroke="currentColor"
+                                                                    stroke-width="2"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"
+                                                                    class="feather feather-plus">
+                                                                    <line x1="12" y1="5" x2="12"
+                                                                        y2="19"></line>
+                                                                    <line x1="5" y1="12" x2="19"
+                                                                        y2="12"></line>
+                                                                </svg> Add</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- **************************7th***************** -->
+
+                                        <div class="col">
+                                            <div class="card card-product">
+                                                <div class="card-body">
+                                                    <div class="text-center imgSize"> <a
+                                                            href="./pages/shop-single.html"><img
+                                                                src="https://m.media-amazon.com/images/I/61Gbz2-w9FL._UY879_.jpg"
+                                                                alt="Grocery Ecommerce Template"
+                                                                class="mb-3 img-fluid "></a>
+
+                                                    </div>
+                                                    <div class="text-small mb-1"><a href="#!"
+                                                            class="text-decoration-none text-muted"><small>Black,
+                                                                &amp;
+                                                                Rounded</small></a></div>
+                                                    <h2 class="fs-6"><a
+                                                            href="./pages/shop-single.html"
+                                                            class="text-inherit text-decoration-none">Solid
+                                                            Men's Round Neck </a></h2>
+                                                    <div class="text-warning">
+
+                                                        <small>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i
+                                                                class="fa-solid fa-star-half-stroke"
+                                                                style="color: #ffc107;"></i>
+                                                        </small> <span
+                                                            class="text-muted small">3.5 (89)</span>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex justify-content-between mt-4">
+                                                        <div><span class="text-dark">₹600</span>
+                                                            <span
+                                                                class="text-decoration-line-through text-muted">₹900</span>
+                                                        </div>
+                                                        <div><a href="#!"
+                                                                class="btn btn-primary d-flex btn-sm">
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    width="16" height="16"
+                                                                    viewBox="0 0 24 24"
+                                                                    fill="none"
+                                                                    stroke="currentColor"
+                                                                    stroke-width="2"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"
+                                                                    class="feather feather-plus">
+                                                                    <line x1="12" y1="5" x2="12"
+                                                                        y2="19"></line>
+                                                                    <line x1="5" y1="12" x2="19"
+                                                                        y2="12"></line>
+                                                                </svg> Add</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- ******************8th*************** -->
+                                        <div class="col">
+                                            <div class="card card-product">
+                                                <div class="card-body">
+                                                    <div class="text-center imgSize"> <a
+                                                            href="./pages/shop-single.html"><img
+                                                                src="https://i.pinimg.com/564x/11/6a/22/116a22751ec090ac666f10aeb7c74617.jpg"
+                                                                alt="Grocery Ecommerce Template"
+                                                                class="mb-3 img-fluid  "></a>
+
+                                                    </div>
+                                                    <div class="text-small mb-1"><a href="#!"
+                                                            class="text-decoration-none text-muted"><small>Black,
+                                                                &amp;
+                                                                Rounded</small></a></div>
+                                                    <h2 class="fs-6"><a
+                                                            href="./pages/shop-single.html"
+                                                            class="text-inherit text-decoration-none">Solid
+                                                            Men's Round Neck </a></h2>
+                                                    <div class="text-warning">
+
+                                                        <small>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i
+                                                                class="fa-solid fa-star-half-stroke"
+                                                                style="color: #ffc107;"></i>
+                                                        </small> <span
+                                                            class="text-muted small">3.5 (89)</span>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex justify-content-between mt-4">
+                                                        <div><span class="text-dark">₹600</span>
+                                                            <span
+                                                                class="text-decoration-line-through text-muted">₹900</span>
+                                                        </div>
+                                                        <div><a href="#!"
+                                                                class="btn btn-primary d-flex btn-sm">
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    width="16" height="16"
+                                                                    viewBox="0 0 24 24"
+                                                                    fill="none"
+                                                                    stroke="currentColor"
+                                                                    stroke-width="2"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"
+                                                                    class="feather feather-plus">
+                                                                    <line x1="12" y1="5" x2="12"
+                                                                        y2="19"></line>
+                                                                    <line x1="5" y1="12" x2="19"
+                                                                        y2="12"></line>
+                                                                </svg> Add</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- ******************9th*************** -->
+                                        <div class="col">
+                                            <div class="card card-product">
+                                                <div class="card-body">
+                                                    <div class="text-center imgSize"> <a
+                                                            href="./pages/shop-single.html"><img
+                                                                src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1695457335_2236257.jpg?format=webp&w=576&dpr=1.4"
+                                                                alt="Grocery Ecommerce Template"
+                                                                class="mb-3 img-fluid "></a>
+
+                                                    </div>
+                                                    <div class="text-small mb-1"><a href="#!"
+                                                            class="text-decoration-none text-muted"><small>Black,
+                                                                &amp;
+                                                                Rounded</small></a></div>
+                                                    <h2 class="fs-6"><a
+                                                            href="./pages/shop-single.html"
+                                                            class="text-inherit text-decoration-none">Solid
+                                                            Men's Round Neck </a></h2>
+                                                    <div class="text-warning">
+
+                                                        <small>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i
+                                                                class="fa-solid fa-star-half-stroke"
+                                                                style="color: #ffc107;"></i>
+                                                        </small> <span
+                                                            class="text-muted small">3.5 (89)</span>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex justify-content-between mt-4">
+                                                        <div><span class="text-dark">₹600</span>
+                                                            <span
+                                                                class="text-decoration-line-through text-muted">₹900</span>
+                                                        </div>
+                                                        <div><a href="#!"
+                                                                class="btn btn-primary d-flex btn-sm">
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    width="16" height="16"
+                                                                    viewBox="0 0 24 24"
+                                                                    fill="none"
+                                                                    stroke="currentColor"
+                                                                    stroke-width="2"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"
+                                                                    class="feather feather-plus">
+                                                                    <line x1="12" y1="5" x2="12"
+                                                                        y2="19"></line>
+                                                                    <line x1="5" y1="12" x2="19"
+                                                                        y2="12"></line>
+                                                                </svg> Add</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- ******************10th*************** -->
+                                        <div class="col">
+                                            <div class="card card-product">
+                                                <div class="card-body">
+                                                    <div class="text-center imgSize"> <a
+                                                            href="./pages/shop-single.html"><img
+                                                                src="https://m.media-amazon.com/images/I/61PgOZ-IH0L._UX679_.jpg"
+                                                                alt="Grocery Ecommerce Template"
+                                                                class="mb-3 img-fluid "></a>
+
+                                                    </div>
+                                                    <div class="text-small mb-1"><a href="#!"
+                                                            class="text-decoration-none text-muted"><small>Black,
+                                                                &amp;
+                                                                Rounded</small></a></div>
+                                                    <h2 class="fs-6"><a
+                                                            href="./pages/shop-single.html"
+                                                            class="text-inherit text-decoration-none">Solid
+                                                            Men's Round Neck </a></h2>
+                                                    <div class="text-warning">
+
+                                                        <small>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i class="fa-solid fa-star"
+                                                                style="color: #ffc107;"></i>
+                                                            <i
+                                                                class="fa-solid fa-star-half-stroke"
+                                                                style="color: #ffc107;"></i>
+                                                        </small> <span
+                                                            class="text-muted small">3.5 (89)</span>
+                                                    </div>
+                                                    <div
+                                                        class="d-flex justify-content-between mt-4">
+                                                        <div><span class="text-dark">₹600</span>
+                                                            <span
+                                                                class="text-decoration-line-through text-muted">₹900</span>
+                                                        </div>
+                                                        <div><a href="#!"
+                                                                class="btn btn-primary d-flex btn-sm">
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    width="16" height="16"
+                                                                    viewBox="0 0 24 24"
+                                                                    fill="none"
+                                                                    stroke="currentColor"
+                                                                    stroke-width="2"
+                                                                    stroke-linecap="round"
+                                                                    stroke-linejoin="round"
+                                                                    class="feather feather-plus">
+                                                                    <line x1="12" y1="5" x2="12"
+                                                                        y2="19"></line>
+                                                                    <line x1="5" y1="12" x2="19"
+                                                                        y2="12"></line>
+                                                                </svg> Add</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- *******************end*************** -->
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- **********************************
+                            **********************************
+                            ********************************** -->
+                                            
+                    
+                    </div>
+                </div>
+            </div>
+            
+            <!-- ***************************end mide contanar****************** -->
+           
+            
+
+            <!-- *************** Footer ********************          -->
+            <div class="position-fixed" style="bottom: 8vh; right: 5vw;">
+                <a href="http://wa.me/8535955532" target="_blank"><i class="fa-brands fa-square-whatsapp" style="color: #00ff40; font-size: 45px; "></i></a>
+            </div>
+        <footer class="bg-light text-center text-white">
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+                    <!-- Section: Social media -->
+                    <section class="mb-4  ">
+                        <!-- Facebook -->
+                        <a
+                            class="btn text-white btn-floating m-1"
+                            style="background-color: #3b5998;"
+                            href="#!"
+                            role="button"><i class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+                        <a
+                            class="btn text-white btn-floating m-1"
+                            style="background-color: #55acee;"
+                            href="#!"
+                            role="button"><i class="fab fa-twitter"></i></a>
+
+                        <!-- Balasaka -->
+                        <a
+                            class="btn text-white   p-1"
+                            style="background-color: #fb7463;"
+                            href="http://www.balasaka.com/"
+                            target="_blank"
+                            role="button"><img class="img-fluid"
+                                style="height: 36px; width: 97px;"
+                                src="Balasaka.jpeg" alt="Balasaka"></i></a>
+
+                    <!-- Instagram -->
+                    <a
+                        class="btn text-white btn-floating m-1"
+                        style="background-color: #ac2bac;"
+                        href="#!"
+                        role="button"><i class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a
+                        class="btn text-white btn-floating m-1"
+                        style="background-color: #0082ca;"
+                        href="#!"
+                        role="button"><i class="fab fa-linkedin-in"></i></a>
+
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3"
+                style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">lumang.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+        <!-- *************** End Footer ********************          -->
+
+    </body>
+    <script src="popper.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</html>

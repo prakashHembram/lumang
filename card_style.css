@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#card{
+    height: 319px;
+    width: 175px;
+    
+
+}
+
+#homecard{
+    height: 348px;
+    width: 195px;
+}
+
+
+
+
+
+
+
+/* ************************** */
+
+/* For extremely small screen devices (595px and below) (mobile)*/
+@media only screen and (max-width: 595px) {
+    #card{
+        height: 273px;
+        width: 136px;
+        
+    }
+    #bannarMobile{
+        width: 100vw;
+        height: 220px;
+        margin-top: -70px;
+    }
+    #smDiviceImg{
+        height: 60px;
+    }
+    #deatail_page_big_img{
+        
+        height: 300px;
+        width: 209px;
+    }
+    /* *******************bigcard******* */
+    #cardRow{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    
+    
+    #upCard{
+        width: 351px;
+        height: 195px;
+        box-shadow: 0px 1px 12px 0px rgb(111, 110, 110);
+        
+    }
+    #cardImgSideBg{
+        background-color: #38476a;
+        width: 87px;
+    }
+    .bigCardImg{
+        height: 190px;
+        width: 240px;
+        margin-left: -40px;
+        margin-top: 4px;
+        filter: drop-shadow(9px 1px 5px gray);
+    }
+    
+    
+    
+}
+
+/* Small screen devices (600px and above) (tab+Mobile)*/
+@media only screen and (min-width: 600px) {
+    #bannarTab{
+        width: 100%;
+        height: 400px;
+        margin-top: -70px;
+    }
+    #deatail_page_big_img{
+        height: 390px;
+        width: 284px;
+    }
+    #smDiviceImg{
+        height: 60px;
+    }
+    /* ***************BigCard********** */
+  
+
+    #upCard{
+        max-width:465px;
+        height: 244px;
+        box-shadow: 0px 1px 12px 0px;
+    }
+    #cardImgSideBg{
+        background-color: #38476a;
+    }
+    .bigCardImg{
+               
+        height: 233px;
+        width: 300px;
+        margin-left: -34px;
+        margin-top: 10px;
+        filter: drop-shadow(9px 1px 5px gray);
+       
+    }
+}
+
+/* Medium screen devices (768px and above) (Teb)*/
+/* @media only screen and (min-width: 768px) {
+    #bannarMobile{
+        width: 100%;
+        height: 400px;
+        margin-top: -70px;
+    }        
+} */
+
+/* Big screen devices (889px and above) (Laptop)*/
+@media only screen and (min-width: 889px) {
+   
+    /* #card img{
+        height: 196px;
+        width: 156px;
+    } */
+    #deatail_page_big_img{
+        height: 548px;
+        width: 421px;
+    }
+}
+
+/* Extra big screen devices (1200px and above)(Big-Desktop) */
+@media only screen and (min-width: 1200px) {
+   
+}
